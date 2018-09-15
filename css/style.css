@@ -8,10 +8,9 @@
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background: #fff;
   color: #fff;
   overflow-x: hidden;
-  padding-bottom: 50px;
 }  
 
 /* INTRO SECTION
@@ -19,11 +18,14 @@ body {
 
 .intro {
   background: #1d1d1d;
+  background-image: url('/img/header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 100px 0;
 }
 
 .intro > div > h1 {
-  color: yellow;
+  color: white;
 }
 
 .container {
@@ -67,13 +69,13 @@ h1 {
 }
 
 h2 {
-  background-color: #0bbdad;
+  background-color: #0dcdce;
   padding: 15px 15px 0 15px;
   border-radius: 10px 10px 0 0;
 }
 
 time {
-  background-color: #0bbdad;
+  background-color: #0dcdce;
   padding: 0 15px 15px 15px;
 }
 
@@ -86,6 +88,12 @@ p {
   border-right: 2px solid #eaeaea;
 }
 
+#footer {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #0dcdce;
+}
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -143,7 +151,7 @@ p {
 .timeline ul li:nth-child(odd) div.card::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #0bbdad transparent transparent;
+  border-color: transparent #0dcdce transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div.card {
@@ -153,7 +161,7 @@ p {
 .timeline ul li:nth-child(even) div.card::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #0bbdad;
+  border-color: transparent transparent transparent #0dcdce;
 }
 
 time {
@@ -171,7 +179,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #0bbdad;
+  background: #0dcdce;
 }
 
 .timeline ul li div {
@@ -221,6 +229,6 @@ time {
   .timeline ul li:nth-child(even) div.card::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #0bbdad transparent transparent;
+    border-color: transparent #0dcdce transparent transparent;
   }
 }
