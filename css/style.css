@@ -7,7 +7,7 @@
 }
 
 body {
-  font: normal 16px/1.5 "Montserrat", sans-serif;
+  font: normal 16px/1.5 "Josefin Sans", sans-serif;
   background: #fff;
   color: #fff;
   overflow-x: hidden;
@@ -99,9 +99,10 @@ h1 {
 
 .selected_projects {
   font-family: "Josefin Sans";
+  /*font-family: "Permanent Marker";*/
   padding-top: 120px;
-  padding-bottom: 40px;
-  font-size: 58px;
+  padding-bottom: 50px;
+  font-size: 56px;
   text-align: center;
   color: #afafaf;
 }
