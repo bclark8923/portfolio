@@ -21,11 +21,12 @@ body {
   background-image: url('/img/header.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .intro > div > h1 {
   color: white;
+  font-size: 60px;
 }
 
 .container {
@@ -38,7 +39,14 @@ body {
 h1 {
   font-family: "Helvetica Neue";
   font-family: "Pacifico";
+  /*font-family: "Josefin Sans";*/
   font-size: 2.5rem;
+}
+
+.intro > div > h3 {
+  font-family: "Josefin Sans";
+  font-size: 26px;
+  font-weight: 300;
 }
 
 /* CUSTOM / MEDIA
@@ -70,15 +78,26 @@ h1 {
   width: 100% !important;
 }
 
+.selected_projects {
+  font-family: "Josefin Sans";
+  padding-top: 120px;
+  padding-bottom: 80px;
+  font-size: 58px;
+  text-align: center;
+  color: #afafaf;
+}
+
+h2, time, #footer, .timeline ul li.in-view::after {
+  background-color: #19b7b0;
+}
+
 h2 {
-  background-color: #0dcdce;
   padding: 15px 15px 0 15px;
   border-radius: 10px 10px 0 0;
 }
 
 time {
   /*font: normal 16px/1.5 "Roboto Slab", sans-serif;*/
-  background-color: #0dcdce;
   padding: 0 15px 15px 15px;
 }
 
@@ -96,7 +115,6 @@ p {
   text-align: center;
   padding: 20px;
   font-weight: bold;
-  background-color: #0dcdce;
 }
 
 .aboutMe {
@@ -104,11 +122,63 @@ p {
   color: #666;
 }
 
+.row {
+  display: flex; 
+  max-width: 1200px;
+  margin: 0 auto; 
+  flex-flow: row wrap;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.column {
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.projects {
+  padding-right: 20px;
+}
+
+.colimg {
+  width: 100%;
+}
+
+.yearsof {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8vw;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: -10px;
+  margin-left: 4px;
+}
+
+.exp {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 3vw;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.descrip {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.45vw;
+  margin-left: 4px;
+  font-weight: 300;
+}
+
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.timeline {
+  background-color: #f7f7f7;
+}
 .timeline ul {
-  background: #f7f7f7;
   padding: 50px 0;
 }
 
@@ -160,7 +230,7 @@ p {
 .timeline ul li:nth-child(odd) div.card::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #0dcdce transparent transparent;
+  border-color: transparent #19b7b0 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div.card {
@@ -170,7 +240,7 @@ p {
 .timeline ul li:nth-child(even) div.card::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #0dcdce;
+  border-color: transparent transparent transparent #19b7b0;
 }
 
 time {
@@ -185,10 +255,6 @@ time {
 
 .timeline ul li::after {
   transition: background .5s ease-in-out;
-}
-
-.timeline ul li.in-view::after {
-  background: #0dcdce;
 }
 
 .timeline ul li div {
@@ -238,14 +304,50 @@ time {
   .timeline ul li:nth-child(even) div.card::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #0dcdce transparent transparent;
+    border-color: transparent #19b7b0 transparent transparent;
   }
   .timeline ul li div.card {
     width: calc(100vw - 91px);
     max-width: 600px;
   }
 
+@media screen and (max-width: 1200px) {
+  .yearsof {
+    margin-left: 2px;
+  }
+  .descrip {
+    margin-left: 2px;
+  }
+}
+
 @media screen and (max-width: 900px) {
+  .yearsof {
+    font-size: 26px;
+    margin-bottom: -10px;
+    margin-left: 4px;
+  }
+  .exp {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .descrip {
+    font-size: 22px;
+    margin-left: 4px;
+  }
+  .projects {
+    padding-right: 0px;
+  }
+  .row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .column:first-child {
+    padding-top: 100px;
+  }
+  .column {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .timeline ul li {
     margin-left: 20px;
   }
@@ -259,6 +361,14 @@ time {
   .timeline ul li:nth-child(even) div.card::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #0dcdce transparent transparent;
+    border-color: transparent #19b7b0 transparent transparent;
+  }
+  .row {
+    flex-direction: column;
   }
 }
+
+/*
+#0dcdce
+#88babf
+*/
