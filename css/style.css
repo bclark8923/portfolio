@@ -397,6 +397,9 @@ time {
     padding-bottom: 40px;
     font-size: 42px;
   }
+  h2 {
+    font-size: 1.3em;
+  }
   time {
     font-size: 1rem;
   }
