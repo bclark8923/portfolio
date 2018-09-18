@@ -71,6 +71,10 @@ h1 {
 /* CUSTOM / MEDIA
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
+a, a:active, a:visited, a:selected {
+  color: white;
+}
+
 .image {
   text-align: center !important;
   width: 100% !important;
