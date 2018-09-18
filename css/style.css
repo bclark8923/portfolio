@@ -425,7 +425,7 @@ body {
     padding-top: 100px;
   }
   .column:last-child {
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .column {
     padding-top: 40px;
