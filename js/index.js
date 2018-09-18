@@ -7,5 +7,6 @@
 
   var years = d.getFullYear() - 2003;
   document.getElementById("yearsof").innerHTML = years + " " + document.getElementById("yearsof").innerHTML;
+  document.getElementById("descrip").innerHTML = document.getElementById("descrip").innerHTML + years + " years.";
 
 })();
