@@ -447,8 +447,8 @@ body {
     flex-direction: column;
   }
   .intro {
-    padding-top: 140px;
-    padding-bottom: 160px;
+    padding-top: 120px;
+    padding-bottom: 180px;
   }
   .intro > div > h1 {
     font-size: 48px;
