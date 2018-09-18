@@ -94,7 +94,7 @@ h1 {
 }
 
 h2, time, #footer, .timeline ul li.in-view::after {
-  background-color: #19b7b0;
+  background-color: #0eccc3;
 }
 
 h2 {
@@ -236,7 +236,7 @@ p {
 .timeline ul li:nth-child(odd) div.card::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #19b7b0 transparent transparent;
+  border-color: transparent #0eccc3 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div.card {
@@ -246,7 +246,7 @@ p {
 .timeline ul li:nth-child(even) div.card::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #19b7b0;
+  border-color: transparent transparent transparent #0eccc3;
 }
 
 time {
@@ -310,7 +310,7 @@ time {
   .timeline ul li:nth-child(even) div.card::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #19b7b0 transparent transparent;
+    border-color: transparent #0eccc3 transparent transparent;
   }
   .timeline ul li div.card {
     width: calc(100vw - 91px);
@@ -367,7 +367,7 @@ time {
   .timeline ul li:nth-child(even) div.card::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #19b7b0 transparent transparent;
+    border-color: transparent #0eccc3 transparent transparent;
   }
   .row {
     flex-direction: column;
