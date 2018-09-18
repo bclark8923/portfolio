@@ -72,7 +72,7 @@ h1 {
 /* CUSTOM / MEDIA
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
-a, a:active, a:visited, a:selected {
+a.link, a:active, a:visited, a:selected, a:focus, a:focus-within {
   color: white;
 }
 
@@ -426,7 +426,8 @@ EDIT ON
   width: 40px;
   height: 70px;
   margin-left: -20px;
-  top: 560px;
+  /*top: 560px;*/
+  bottom: -130px;
   margin-top: -35px;
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 25px;
