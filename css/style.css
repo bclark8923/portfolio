@@ -330,7 +330,7 @@ body {
   height: 70px;
   margin-left: -20px;
   /*top: 560px;*/
-  bottom: 30px;
+  bottom: 40px;
   margin-top: -35px;
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 25px;
@@ -487,11 +487,6 @@ body {
   }
   time {
     font-size: 1rem;
-  }
-  .icon-scroll {
-    /*top: 550px;*/
-    /*top: 0px;*/
-    bottom: 30px;
   }
   .title_break {
     display: block;
